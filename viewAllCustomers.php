@@ -174,13 +174,13 @@ $mysqli->close();
 		var res = "";
 		   
 		if ($("#inpt").val() == ""){
-		    empty += "\n TransactionID is Missing! \n";
+		    empty += "\n SenderID is Missing! \n";
 		   }
 		if ($("#inpt1").val() == ""){
 		    empty1 += "\n Amount is Missing! \n";
 		   }
 		if ($("#inpt2").val() == ""){
-		    empty2 += "\n Amount is Missing! \n";
+		    empty2 += "\n RecipientID is Missing! \n";
 		   }
 		if (empty != "" || empty1 != "" || empty2 != ""){
 			if (empty != "" && empty1 == "")
